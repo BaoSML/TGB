@@ -1,7 +1,0 @@
-SPCK-Trần Gia Bảo
-Link githup:https://github.com/BaoSML/TGB
-Link API:https://rapidapi.com/brian.rofiq/api/anime-db/pricing
-Website Wibu giúp người dùng biết những bộ Anime nổi tiếng và tìm kiếm những
-bộ Anime mình thích.
--Cập nhật thông tin
--Tìm kiếm
