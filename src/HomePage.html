@@ -1,37 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Anime Plaza</title>
-    <link rel="stylesheet" href="global-styles.css">
-    <link rel="shortcut icon" href="../Assets/icons/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Diphylleia&family=Montserrat:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
-</head>
-<body>
-    <img src="logo.png" class="logo">
-    <nav class="navbar">
-    <ul class="nav-list">
-        <li><a href="#" style="color: rgb(102, 255, 0);">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-        <li class="more">
-            <a href="#">More▾</a>
-            <ul class="more-dropdown">
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Team</a></li>
-            </ul>
-        </li>
-    </ul>
-</nav>
-    
-<img src="Top1.jpg" class="Top1">
-    <script src="main.js"></script>
-</body>
+    <link rel="stylesheet" href="global-styles.css" />
 
+    <link
+      rel="shortcut icon"
+      href="/Assets/icons/logo.icon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Diphylleia&family=Montserrat:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+     <!-- Header Start -->
+     <header class="site-header">
+      <div class="wrapper site-header__wrapper">
+        <div class="site-header__start">
+          <a href="#" class="brand">Wibu <span>World</span></a>
+        </div>
+        <div class="site-header__middle">
+          <nav class="nav">
+            <button class="nav__toggle" aria-expanded="false" type="button">
+              menu
+            </button>
+            <ul class="nav__wrapper">
+              <li class="nav__item"><a href="HomePage.html">Home</a></li>
+              <li class="nav__item"><a href="screens/aboutUs/index.html">About</a></li>
+              <li class="nav__item"><a href="#">Product</a></li>
+              <li class="nav__item"><a href="#">Update</a></li>
+              <li class="nav__item"><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="site-header__end">
+          <a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+  <header>
+    <div class="hero">
+      <h1>Welcome to Wibu World</h1>
+      <p>Search every Anime you want to watch</p>
+      <a href="screens/product/detailProduct/index.html" class="btn">Search now</a>
+  </div>
+  </header>
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/ee44418a17.js" crossorigin="anonymous"></script>
+  </body>
 </html>
