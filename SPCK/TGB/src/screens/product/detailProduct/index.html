@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="/TGB/src/screens/product/detailProduct/style.css"
+    />
+    <title>Movie  </title>
+  </head>
+  <body>
+    <!-- Header -->
+    <nav>
+      <ul>
+        <li>
+          <a href="/TGB/src/HomePage.html"
+            ><i class="fa-solid fa-house"></i> Home</a
+          >
+        </li>
+        <li><a href="/TGB/src/screens/aboutUs/index.html">About</a></li>
+        <li class="dropdown">
+          <a href="#">Product</a>
+          <div class="dropdown-content">
+            <a href="/TGB/src/screens/product/detailProduct/index.html"
+              >Movie</a
+            >
+            <a href="/TGB/src/screens/product/index.html">Shop</a>
+          </div>
+        </li>
+        <li><a href="/TGB/src/screens/contactUs/index.html">Contact</a></li>
+        <li class="logout">
+          <a href="/TGB/src/screens/auth/register/register.html"
+            ><i class="fa-solid fa-right-from-bracket"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Hero -->
+    <div class="hero hero-img">
+      <div class="inner-content">
+        <div class="hero-title">
+          <h3>WHAT ARE YOU LOOKING FOR?</h3>
+        </div>
+        <div class="search-form">
+          <form class="search-bar" id="form">
+            <input
+              type="text"
+              name="search"
+              id="search"
+              class="search"
+              placeholder="Anime name..."
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Movie List -->
+    <div class="main" id="main"></div>
+    <script src="/TGB/src/screens/product/detailProduct/main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/ee44418a17.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

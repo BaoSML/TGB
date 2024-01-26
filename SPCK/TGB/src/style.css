@@ -1,0 +1,93 @@
+
+.topimg {
+  background-image: url(/TGB/Assets/images/bg.jpg); /* Thay đổi đường dẫn với đường dẫn của hình nền của bạn */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Chia đối tượng về chiều cao của màn hình */
+}
+
+nav {
+  background-color: #002d5e;
+  padding: 10px;
+  top:0;
+  position: fixed;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Dropdown styling */
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #002d5e;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  transition: color 0.3s ease;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  color: #0056b3;
+  transform: translateY(0);
+}
+
+/* Log Out styling */
+.logout {
+  float: right;
+}
+
+img {
+  max-height: 200px;
+  margin-left: 80px;
+  border-radius: 10px;
+  max-width: 150px;
+}
+
+p {
+  font-size: 20px;
+  margin-left: 80px;
+}
+
+.trending {
+  display: flex;
+}
